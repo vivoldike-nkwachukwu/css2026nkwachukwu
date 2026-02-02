@@ -25,7 +25,6 @@ st.title("Work Experience")
 st.header("Postdoctoral Research Fellow, University of Johannesburg (UJ), South Africa")  
 st.write("Preparation and characterisation of different semiconductors for photocatalysis, photoelectrocatalysis, and energy generation")
 st.write("Designing research methodology and approach for MSc and PhD students") 	   
-st.header("Number selection")
 
 st.header("Oluchi Nkwachukwu Google Scholar Profile")
 st.title("Oluchi Vivian Nkwachukwu Google Scholar Profile")
@@ -46,4 +45,5 @@ fig = px.line(data, x ="x", y="y", title="Google citation profile")
 st.plotly_chart(fig)
 
 # number = st.slider("Pick a number", 1, 100)
+
 # st.write(f"You picked: {number}")
